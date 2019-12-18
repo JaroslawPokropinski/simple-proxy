@@ -1,0 +1,20 @@
+{
+  "name": "simple-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "package": "pkg -t win ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.2"
+  }
+}
